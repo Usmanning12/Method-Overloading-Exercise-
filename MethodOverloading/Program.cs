@@ -40,6 +40,8 @@
 
         static void Main(string[] args)
         {
+            Console.WriteLine(Add(110, 300));
+            Console.WriteLine(Add(2.0m, 30.0m));
             Console.WriteLine(Add(20, 15, true));
         }
 
